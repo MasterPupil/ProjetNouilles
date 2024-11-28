@@ -447,6 +447,99 @@
       font-size: 0.9rem;
     }
   }
-
+/* Section styles */
+.pricing-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+  }
+  
+  .section-subtitle {
+    font-size: 1.2rem;
+    color: #6c63ff;
+    margin-bottom: 10px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center; /* pour tt centrer */
+  }
+  
+  .pricing-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pricing-icon {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-title {
+    font-size: 1.5rem;
+    color: #6c63ff;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+  }
+  
+  .pricing-features li {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .unavailable {
+    color: #ff4d4d;
+  }
+  
+  .pricing-cost {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  .btn-pricing {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6c63ff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-pricing:hover {
+    background-color: #574bdf;
+  }
+  
   
   
