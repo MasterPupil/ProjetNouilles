@@ -257,5 +257,91 @@
       padding: 6px 12px;
     }
   }
+/* Section Services */
+.services {
+    padding: 50px 10%;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .services-header h3 {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .services-header h2 {
+    font-size: 2rem;
+    color: #6c63ff;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .services-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  /* Carte */
+.carte {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Contenu principal (image + titre) */
+  .carte .content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .carte img {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .carte h4 {
+    font-size: 1rem;
+    color: #6c63ff;
+    margin: 10px 0;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Texte caché par défaut */
+  .carte .texte {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%; /* Occupe 40% de la case*/
+    background: white;
+    color: #000;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    padding: 10px;
+    transform: translateY(100%); /* Masqué initialement */
+    transition: transform 0.3s ease;
+    z-index: 0;
+  }
+  
+  /* Effet au survol */
+  .carte:hover .content {
+    transform: scale(0.6); /* POur diminuer tailles des elements  */
+  }
+  
+  .carte:hover .texte {
+    transform: translateY(0); /* Texte lorem apparait */
+  }
   
   
