@@ -130,7 +130,7 @@
   }
   /* Section About Me */
 .about-me {
-    padding-left: 22%;
+    padding-left: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,7 +149,7 @@
     height: auto;
     
   }
-  
+
   /* Contenu texte */
   .about-content h3 {
     font-size: 1.2rem;
@@ -170,6 +170,7 @@
     color: #666; 
     margin-bottom: 20px;
     line-height: 1.6;
+    text-align: justify;
   }
   
   /* Bouton Download CV */
@@ -188,4 +189,74 @@
     background-color: #6c63ff;
     color: #fff;
   }
+  /* Responsive pour tablettes */
+@media (max-width: 768px) {
+    .about-me {
+      padding-left: 10%; 
+      flex-direction: column; 
+      text-align: center; 
+    }
+  
+    .about-me .container {
+      flex-direction: column; /* pour aligner l'image et le texte verticalement */
+      gap: 20px;
+    }
+  
+    .about-image img {
+      width: 200px;
+    }
+  
+    .about-content h2 {
+      font-size: 1.8rem; 
+    }
+  
+    .about-content h3 {
+      font-size: 1rem;
+    }
+  
+    .about-content p {
+      font-size: 0.9rem; 
+      line-height: 1.4;
+    }
+  
+    .btn-download {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+  }
+  
+  /* Responsive pour mobiles */
+  @media (max-width: 480px) {
+    .about-me {
+      padding-left: 5%;
+      padding-right: 5%; 
+    }
+  
+    .about-me .container {
+      gap: 15px;
+    }
+  
+    .about-image img {
+      width: 150px; 
+    }
+  
+    .about-content h2 {
+      font-size: 1.5rem; 
+    }
+  
+    .about-content h3 {
+      font-size: 0.9rem;
+    }
+  
+    .about-content p {
+      font-size: 0.8rem;
+      line-height: 1.3;
+    }
+  
+    .btn-download {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+    }
+  }
+  
   
