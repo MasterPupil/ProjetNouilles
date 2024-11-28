@@ -540,7 +540,49 @@
   .btn-pricing:hover {
     background-color: #574bdf;
   }
-
+/* Section Hire Me */
+.hire-section {
+    background-color: #574bdf;
+    padding: 20px 0;
+  }
+  
+  .hire-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+  }
+  
+  .hire-text h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .hire-text p {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  .hire-button .btn-hire {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6c63ff;
+    background-color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .hire-button .btn-hire:hover {
+    background-color: #574bdf;
+    color: white;
+  }
+  
   
   
   
