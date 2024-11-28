@@ -130,7 +130,7 @@
   }
   /* Section About Me */
 .about-me {
-    padding-left: 15%;
+    padding-left: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,7 +145,7 @@
   
   /* Image de la personne */
   .about-image img {
-    width: 300px;
+    width: 380px;
     height: auto;
     
   }
