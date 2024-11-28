@@ -969,4 +969,50 @@
     background-color: #6c63ff;
     color: #fff;
   }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .reseaux {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .reseaux li {
+    display: inline-block;
+  }
+  
+  .reseaux a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .reseaux img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  
+  .reseaux img:hover {
+    border-color: #6c63ff;
+    transform: scale(1.1);
+  }
   
