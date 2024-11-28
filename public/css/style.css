@@ -875,39 +875,29 @@
   
     .blog-content .read-more {
       font-size: 0.8rem;
-    }
-  }
-  .contact-section {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #ffffff;
+    } 
+}
+/* Navbar Contact */
+.contact-navbar {
+    display: flex;
+    justify-content: space-between; /* Espace entre "Nouilles" et les autres éléments */
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
   }
   
-  .contact-container h3 {
+  .contact-navbar .logo {
     font-size: 1rem;
-    color: #666;
-    margin-bottom: 10px;
-  }
-  
-  .contact-container h2 {
-    font-size: 2rem;
-    color: #6c63ff;
     font-weight: bold;
-    margin-bottom: 30px;
-  }
-  
-  .contact-navbar {
-    margin-bottom: 30px;
+    color: #6c63ff; /* Couleur du logo "Nouilles" */
   }
   
   .contact-navbar ul {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; /* Aligne les éléments du menu à droite */
     gap: 20px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
   }
   
   .contact-navbar li {
@@ -916,50 +906,67 @@
   
   .contact-navbar a {
     text-decoration: none;
-    color: #666;
+    color: #666; /* Couleur des liens */
     font-weight: bold;
   }
   
   .contact-navbar .close a {
-    color: #6c63ff;
     font-size: 1.2rem;
     font-weight: bold;
+    color: #666; /* Couleur unifiée pour la croix */
+  }
+  
+  /* Section Contact */
+  .contact-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .contact-section h3 {
+    font-size: 1,2rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    color: #6c63ff;
+    font-weight: bold;
+    margin-bottom: 30px;
   }
   
   .contact-form {
     max-width: 600px;
     margin: 0 auto;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
   
   .contact-form textarea {
     width: 100%;
     height: 150px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
     padding: 10px;
     font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     resize: none;
-    margin-bottom: 20px;
   }
   
-  .btn-send {
-    background-color: #6c63ff;
-    color: white;
+  .contact-form button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
     font-size: 1rem;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
     font-weight: bold;
+    color: #6c63ff;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
     transition: background-color 0.3s ease;
   }
   
-  .btn-send:hover {
-    background-color: #574bdf;
+  .contact-form button:hover {
+    background-color: #6c63ff;
+    color: #fff;
   }
-    
-  
-  
-  
   
