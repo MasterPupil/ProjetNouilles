@@ -456,14 +456,14 @@
   
   .section-subtitle {
     font-size: 1.2rem;
-    color: #6c63ff;
+    color: #333;
     margin-bottom: 10px;
   }
   
   .section-title {
     font-size: 2rem;
     font-weight: bold;
-    color: #333;
+    color: #6c63ff;
     margin-bottom: 40px;
   }
   
@@ -540,6 +540,7 @@
   .btn-pricing:hover {
     background-color: #574bdf;
   }
+
   
   
   
