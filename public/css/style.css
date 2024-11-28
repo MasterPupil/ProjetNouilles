@@ -1,0 +1,28 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    line-height: 1.5;
+  }
+  
+  /* Header styles */
+  .header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 33%;
+    color: white;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1)),
+                url("../img/header.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  
