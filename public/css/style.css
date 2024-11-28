@@ -65,5 +65,61 @@
   .btn:hover {
     background-color: #574bdf;
   }
-
+/* Responsive pour tablebtes */
+@media (max-width: 768px) {
+    .header {
+      padding-left: 15%; 
+      height: 80vh;
+      background-size: cover;
+      background-position: center; /* Centre l'image */
+    }
+  
+    .header-content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .header-content h2 {
+      font-size: 1.8rem; 
+    }
+  
+    .header-content p {
+      font-size: 1rem; 
+    }
+  
+    .btn {
+      padding: 0.6rem 1.2rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Responsive pour mobiles */
+  @media (max-width: 480px) {
+    .header {
+      padding-left: 5%;
+      height: 70vh; 
+      background-size: contain; 
+      background-position: top center; 
+    }
+  
+    .header-content {
+      width: 90%; 
+    }
+  
+    .header-content h1 {
+      font-size: 2rem; 
+    }
+  
+    .header-content h2 {
+      font-size: 1.5rem;
+    }
+  
+    .header-content p {
+      font-size: 0.9rem;
+    }
+  
+    .btn {
+      padding: 0.5rem 1rem;
+      font-size: 0.8rem;
+    }
+  }
   
