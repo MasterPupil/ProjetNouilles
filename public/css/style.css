@@ -5,7 +5,7 @@
   }
   /* Ajout de la police special  */
   @font-face {
-    font-family: 
+    font-family: 'Arlon';
     src: url('../assets/fonts/FontsFree-Net-Arlon-UltraBold.ttf') format('truetype'); 
 }
   body {
