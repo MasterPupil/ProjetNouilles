@@ -990,6 +990,36 @@
     background-color: #6c63ff;
     color: #fff;
   }
+  /* Responsive Navbar Contact */
+@media (max-width: 768px) {
+    .contact-navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .contact-navbar .logo {
+      margin-bottom: 10px;
+      font-size: 1.8rem;
+    }
+  
+    .contact-navbar ul {
+      flex-direction: column;
+      gap: 10px; 
+      width: 100%; 
+      align-items: flex-start; 
+    }
+  
+    .contact-navbar li {
+      font-size: 1.2rem;
+    }
+  
+    .contact-navbar .close a {
+      align-self: flex-end;
+      font-size: 1.5rem; /* Taille de la croix ajustée */
+    }
+  }
+  
   .footer {
     display: flex;
     justify-content: space-between;
