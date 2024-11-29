@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+  /* Ajout de la police special  */
   @font-face {
-    font-family: 'Arlon'; /* Ajout de la Police pour titre et certains sous titres  */
+    font-family: 
     src: url('../assets/fonts/FontsFree-Net-Arlon-UltraBold.ttf') format('truetype'); 
 }
   body {
@@ -990,7 +991,7 @@
     background-color: #6c63ff;
     color: #fff;
   }
-  /* Responsive Navbar Contact */
+  /* Responsive Navbar */
 @media (max-width: 768px) {
     .contact-navbar {
       flex-direction: column;
