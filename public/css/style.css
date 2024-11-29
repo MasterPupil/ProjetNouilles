@@ -1,17 +1,19 @@
-/* Global styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
+  @font-face {
+    font-family: 'Arlon'; /* Ajout de la Police pour titre et certains sous titres  */
+    src: url('../assets/fonts/FontsFree-Net-Arlon-UltraBold.ttf') format('truetype'); 
+}
   body {
     font-family: 'Poppins', sans-serif;
     background-color: white;
     line-height: 1.5;
   }
   
-  /* Header styles */
+  /* Header styleeuuh */
   .header {
     margin-bottom: 0;
     padding-bottom: 50px;
@@ -41,12 +43,14 @@
     font-size: 3rem;
     margin-bottom: 0.5rem;
     color: #646363;
+    font-family: 'Arlon', sans-serif;
   }
   
   .header-content h2 {
-    font-size: 2rem;
+    font-size: 3.2rem;
     margin-bottom: 1rem;
     color: #3b3a3a;
+    font-family: 'Arlon', sans-serif;
   }
   
   .header-content p {
@@ -163,6 +167,7 @@
     color: #6c63ff;
     font-weight: bold;
     margin-bottom: 20px;
+    font-family: 'Arlon', sans-serif;
   }
   
   .about-content p {
@@ -275,6 +280,7 @@
     color: #6c63ff;
     font-weight: bold;
     margin-bottom: 30px;
+    font-family: 'Arlon', sans-serif;
   }
   
   .services-container {
@@ -295,7 +301,7 @@
     transition: transform 0.3s ease;
   }
   
-  /* Contenu principal (image + titre) */
+  /* Contenu principal (image ET titrre) */
   .carte .content {
     position: relative;
     z-index: 1;
@@ -315,6 +321,7 @@
     color: #6c63ff;
     margin: 10px 0;
     transition: transform 0.3s ease;
+    font-family: 'Arlon', sans-serif; 
   }
   
   /* Texte caché par défaut */
@@ -351,7 +358,7 @@
   }
   
   .portfolio h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #666;
     margin-bottom: 10px;
   }
@@ -360,6 +367,7 @@
     font-size: 2rem;
     color: #6c63ff;
     margin-bottom: 40px;
+    font-family: 'Arlon', sans-serif; 
   }
   
   .portfolio-container {
@@ -403,6 +411,7 @@
     flex-direction: column;
     justify-content: center;
     opacity: 0;
+    font-family: 'Arlon', sans-serif; 
   }
   
   .card-content h4 {
@@ -446,7 +455,7 @@
       font-size: 0.9rem;
     }
   }
-/* Section styles */
+/* Section */
 .pricing-section {
     text-align: center;
     padding: 50px 20px;
@@ -464,6 +473,7 @@
     font-weight: bold;
     color: #6c63ff;
     margin-bottom: 40px;
+    font-family: 'Arlon', sans-serif;
   }
   
   .pricing-cards {
@@ -498,6 +508,7 @@
     font-size: 1.5rem;
     color: #6c63ff;
     margin-bottom: 20px;
+    font-family: 'Arlon', sans-serif;
   }
   
   .pricing-features {
@@ -557,6 +568,7 @@
   .hire-text h3 {
     font-size: 1.5rem;
     font-weight: bold;
+    font-family: 'Arlon', sans-serif; 
   }
   
   .hire-text p {
@@ -574,6 +586,7 @@
     text-decoration: none;
     transition: all 0.3s ease;
     border-radius: 10px;
+    font-family: 'Arlon', sans-serif; 
   }
   
   .hire-button .btn-hire:hover {
@@ -597,6 +610,7 @@
     color: #6c63ff;
     font-weight: bold;
     margin-bottom: 30px;
+    font-family: 'Arlon', sans-serif; 
   }
   
   .testimonial-container {
@@ -656,6 +670,7 @@
     font-size: 1rem;
     color: #6c63ff;
     font-weight: bold;
+    font-family: 'Arlon', sans-serif; 
   }
   @media (max-width: 768px) {
     .testimonial-cards {
@@ -731,6 +746,7 @@
     color: #6c63ff;
     font-weight: bold;
     margin-bottom: 40px;
+    font-family: 'Arlon', sans-serif; 
   }
   
   .blog-container {
@@ -766,6 +782,7 @@
     font-size: 1.2rem;
     color: #6c63ff;
     margin-bottom: 10px;
+    font-family: 'Arlon', sans-serif; 
   }
   
   .blog-content .meta {
@@ -886,9 +903,10 @@
   }
   
   .contact-navbar .logo {
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #6c63ff; /* Couleur du logo "Nouilles" */
+    font-family: 'Arlon', sans-serif; 
   }
   
   .contact-navbar ul {
@@ -900,7 +918,8 @@
   }
   
   .contact-navbar li {
-    font-size: 0.9rem;
+    font-size: 1,9rem;
+    font-family: 'Arlon', sans-serif; 
   }
   
   .contact-navbar a {
@@ -910,9 +929,10 @@
   }
   
   .contact-navbar .close a {
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #666; /* Couleur unifiée pour la croix */
+    font-family: 'Arlon', sans-serif; 
   }
   
   /* Section Contact */
@@ -932,6 +952,7 @@
     color: #6c63ff;
     font-weight: bold;
     margin-bottom: 30px;
+    font-family: 'Arlon', sans-serif; 
   }
   
   .contact-form {
@@ -962,6 +983,7 @@
     text-decoration: none;
     border-radius: 25px;
     transition: background-color 0.3s ease;
+    font-family: 'Arlon', sans-serif; 
   }
   
   .contact-form button:hover {
